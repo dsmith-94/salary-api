@@ -4,7 +4,7 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
-
+# "C:\Users\djski\OneDrive\Documents\GitHub Repository\salary-api\salary_predict_model.pkl"
 # Load model once when the app starts
 model = joblib.load("salary_predict_model.pkl")
 
